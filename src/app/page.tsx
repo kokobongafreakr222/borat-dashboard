@@ -58,11 +58,20 @@ const projects: Project[] = [
     tech: ["Python", "CLI", "Markdown"],
     lastUpdate: "2026-03-11",
   },
+  {
+    id: 6,
+    name: "borat-rss",
+    description: "RSS агрегатор с REST API для мониторинга источников",
+    status: "active",
+    github: "kokobongafreakr222/borat-rss",
+    tech: ["Python", "FastAPI", "RSS"],
+    lastUpdate: "2026-03-11",
+  },
 ];
 
 const stats = {
-  total: 5,
-  active: 5,
+  total: 6,
+  active: 6,
   completed: 0,
   pending: 0,
 };
