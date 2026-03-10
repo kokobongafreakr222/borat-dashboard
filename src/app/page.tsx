@@ -49,11 +49,20 @@ const projects: Project[] = [
     tech: ["Next.js", "TypeScript", "Tailwind"],
     lastUpdate: "2026-03-11",
   },
+  {
+    id: 5,
+    name: "borat-notes",
+    description: "CLI менеджер markdown заметок с Git синхронизацией",
+    status: "active",
+    github: "kokobongafreakr222/borat-notes",
+    tech: ["Python", "CLI", "Markdown"],
+    lastUpdate: "2026-03-11",
+  },
 ];
 
 const stats = {
-  total: 4,
-  active: 4,
+  total: 5,
+  active: 5,
   completed: 0,
   pending: 0,
 };
