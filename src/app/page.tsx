@@ -67,11 +67,20 @@ const projects: Project[] = [
     tech: ["Python", "FastAPI", "RSS"],
     lastUpdate: "2026-03-11",
   },
+  {
+    id: 7,
+    name: "borat-apidoc",
+    description: "Генератор документации API из OpenAPI спецификации",
+    status: "active",
+    github: "kokobongafreakr222/borat-apidoc",
+    tech: ["Python", "CLI"],
+    lastUpdate: "2026-03-11",
+  },
 ];
 
 const stats = {
-  total: 6,
-  active: 6,
+  total: 7,
+  active: 7,
   completed: 0,
   pending: 0,
 };
